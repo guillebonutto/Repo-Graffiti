@@ -42,9 +42,7 @@ document.querySelector("#boton").addEventListener("click", function (e) {
 const wall = document.querySelector("#wall")
 const graffiti = document.querySelector(".graffiti")
 wall.addEventListener("click", function (e) {
-	// console.log("borrado")
 	if (e.target.className == "close") wall.removeChild(e.target.parentNode)
-	// e.path[2].removeChild(e.path[1])
 })
 
 //-- eliminar elemento con click derecho -->
